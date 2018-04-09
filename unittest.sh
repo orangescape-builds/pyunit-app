@@ -8,5 +8,5 @@ find . -name "test_*.py" -print | while read f; do
         ###
 done
 
-cp -r ./coverage.xml /var/lib/jenkins/workspace/pyunit/coverage.xml
-cp -r ./python_unittests_xml /var/lib/jenkins/workspace/pyunit/python_unittests_xml
+#cp -r ./coverage.xml /var/lib/jenkins/workspace/pyunit/coverage.xml
+#cp -r ./python_unittests_xml /var/lib/jenkins/workspace/pyunit/python_unittests_xml
